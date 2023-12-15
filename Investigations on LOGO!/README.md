@@ -1,5 +1,4 @@
-
-![muscle_brute.png](picture/muscle_brute.png)
+![muscle_brute.png](picture/muscle_brute.png){: width="50%"}
 ## Contexte technique. 
 le challenge se compose de 5 docker 
 

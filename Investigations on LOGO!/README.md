@@ -1,3 +1,5 @@
+
+![muscle_brute.png](picture/muscle_brute.png)
 ## Contexte technique. 
 le challenge se compose de 5 docker 
 
@@ -7,10 +9,10 @@ le challenge se compose de 5 docker
 
 1 docker pour répondre au questions
 
+tout se qui et lier a chalenge en luis méme et dans 
 ## Setup de l'environement. 
 
-le setup de l'environement [Arkime](https://arkime.com/)
-
+### Setup de l'environement [Arkime](https://arkime.com/)
 
 ```sh
 # pull the docker 
@@ -42,11 +44,14 @@ docker cp /path/to/the/pcap/folder/ docker-arkime_arkime_1:/data/pcap
 ##### on the docker 
 # import the pcap file. 
 /opt/arkime/bin/capture --copy -n * -R /folder/where/you/cp/the/pcap/folder
+
+# run the script that will parse and upload 
+docker exec -it [container-id] ./data/arkime-parse-pcap-folder.sh
+
+
 ```
 
-
 ### Setup docker questions réponse
-
 
 ```sh 
 

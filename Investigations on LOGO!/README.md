@@ -1,4 +1,4 @@
-<img src="picture/muscle_brute.png" width="50">
+<img src="picture/muscle_brute.png" align="center" width=30% height=30%>
 ## Contexte technique. 
 le challenge se compose de 5 docker 
 

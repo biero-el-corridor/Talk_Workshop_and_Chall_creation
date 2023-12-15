@@ -1,8 +1,8 @@
 
-
+![[Pasted image 20231215115030.png]]
 ## histoire 
 
-on c'est fait avoir un attaquant a réussi a rentrer dans nos systéme et a fait en sorte de se faire voire via une  TTP particuliérement bruiante , mais il a étée assez rapide pour mettre a mal un PLC qui controlais des arrivée d'air sous pressions avent qu'on intervienne , une cuve a étée détruite et une autre a été endommagée, nous avions des TAP réseaux on a réussi a remonter les minute critique  sur notre ARKIME.
+on c'est fait avoir un attaquant a réussi a rentrer dans nos systéme et a fait en sorte de se faire voire via une  TTP particulièrement bruyant , mais il a été assez rapide pour mettre a mal un PLC qui contrôlais des arrivée d'air sous pressions. Le temps qu'on intervienne , une cuve a étée détruite et une autre a été endommagée, nous avions des TAP réseaux on a réussi a remonter les minute critique  sur notre ARKIME.
 
 C'est a vous de jouer , répondez au questions de votre chef. 
 ## concept 

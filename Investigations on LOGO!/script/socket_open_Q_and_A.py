@@ -26,8 +26,8 @@ def main():
         print(f"Connexion établie avec {addr} , les élément entre () sont le format de flag x correspond a une minuscule X correspond a une majuscule. La taille du format ne correspond pas toujour a la taille des flag, il y a une quinzaine de questions")
 
         # Updated questions and answers
-        questions = ["Quelle est l'IP de la machine attaquante ? (X.X.X.X)"
-        , "Quel est l'ip de la machine attaquante ? (X.X.X.X)"
+        questions = ["l'attaquant et visiblement sur un autre réseaux, par quelle adresse et t'il représenter dans cette attaque (il passe par le routeur) ? (X.X.X.X)"
+        , "Quel est l'ip de la machine victime ? (X.X.X.X)"
         , "C'est surement nmap qu'il a utiliser pour faire de la reconaissence , quelle type de scan a til effectuer ? (-xX)",
         "ok super , il a donc constater que le port 102 etais up, il a dut utiliser un outils pour cominiquer via le port 102, quelle outil a t'il surement utiliser ? (xxxxxxX)",
         "quelle emplacement mémoire a t'il scanner au moin 3 fois. (XXX.X,XXX.X,XXX.X)",
@@ -40,9 +40,9 @@ def main():
         "quelle variable on étée ajouter au dashobard ?", 
         "quelle sont les statue fineaux des variable ? (X.X.X.X.X)", 
         "combien de temps (arrondie a la moitié de minute) a durée l'attaque (entre le début du nmap et la déconnexions de l'attaquant) ? (XX.XX)",
-        "GG weel played , contact biero sur discord, il te donneras le "]
+        "GG weel played , contact biero sur discord, il te donneras le flag"]
         
-        answers = ["10.1.2.7", "10.1.1.15","-sS","snap7","V1064.0,V1064.1,V1064.2,V1064.3,V1064.4","V1064.2","T1110","","","","",""]
+        answers = ["10.1.2.7", "10.1.1.15","-sN","snap7","V1064.0,V1064.1,V1064.2,V1064.3,V1064.4,V1064.5","V1064.2","T1110","","","","1.1.1.0.0",""]
 
         connection_successful = True
 

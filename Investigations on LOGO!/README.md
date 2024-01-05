@@ -48,6 +48,7 @@ docker cp /path/to/the/pcap/folder/ docker-arkime_arkime_1:/data/pcap
 # run the script that will parse and upload 
 docker exec -it [container-id] ./data/arkime-parse-pcap-folder.sh
 
+# manque le flag de compilations pour push sorrectemtn le pcap. 
 
 ```
 

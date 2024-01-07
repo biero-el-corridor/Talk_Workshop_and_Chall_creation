@@ -26,9 +26,9 @@ def main():
         print(f"Connexion établie avec {addr} , les élément entre () sont le format de flag x correspond a une minuscule X correspond a une majuscule. La taille du format ne correspond pas toujour a la taille des flag, il y a une quinzaine de questions")
 
         # Updated questions and answers
-        questions = ["l'attaquant et visiblement sur un autre réseaux, par quelle adresse et t'il représenter dans cette attaque (il passe par le routeur) ? (X.X.X.X)"
-        , "Quel est l'ip de la machine victime ? (X.X.X.X)"
-        , "C'est surement nmap qu'il a utiliser pour faire de la reconaissence , quelle type de scan a til effectuer ? (-xX)",
+        questions = ["What tools would he use to carry out the network recognitions phase ? And with which flag (xxxxx -xxx)?"
+        , "What seen to be the IP of the victim ?"
+        , "Which and the name of the product being attacked (manufacturer and product name, in lower case (xxxx xxxxx)).",
         "ok super , il a donc constater que le port 102 etais up, il a dut utiliser un outils pour cominiquer via le port 102, quelle outil a t'il surement utiliser ? (xxxxxxX)",
         "quelle emplacement mémoire a t'il scanner au moin 3 fois. (XXX.X,XXX.X,XXX.X)",
         "quelle emplacement mémoire a vue le plus de voie sa valeur modifier ? (XXX.X)",

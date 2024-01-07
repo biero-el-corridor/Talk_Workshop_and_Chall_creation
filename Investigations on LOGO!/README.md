@@ -43,7 +43,7 @@ docker cp /path/to/the/pcap/folder/ docker-arkime_arkime_1:/data/pcap
 
 ##### on the docker 
 # import the pcap file. 
-/opt/arkime/bin/capture --copy -n * -R /folder/where/you/cp/the/pcap/folder
+/opt/arkime/bin/capture --copy -n * -r /folder/where/you/cp/the/pcap/file.pcapng
 
 # run the script that will parse and upload 
 docker exec -it [container-id] ./data/arkime-parse-pcap-folder.sh

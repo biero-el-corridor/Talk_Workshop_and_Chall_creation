@@ -1,18 +1,38 @@
 <img src="picture/muscle_brute.png" align="center" width=40% height=40%>
 
-## Contexte technique. 
-le challenge se compose de 5 docker 
+## story
 
-4 docker pour la partie investigation 
-- 1 docker pour la partie graphique et le back de Arkime 
-- 3 docker pour OpenSearch
+An attacker managed to get into our system and was able to make himself seen via a particularly noisy TTP, but he was quick enough to damage a PLC which controlled the arrival of pressurized air. By the time we intervened, one tank had been destroyed and another had been damaged. We had network TAPs, and we managed to get the critical minutes back on our ARKIME.
+It's up to you to answer your boss's questions.
+here's a quick network diagram to help you understand the network environment
 
-1 docker pour répondre au questions
+## concept
+Set up an Arkime with a day of pcap on the lab
+The chall takes the form of an investigation
+The objective is to find the following. Structure
 
-tout se qui et lier a chalenge en luis méme et dans 
-## Setup de l'environement. 
+### Chall level:
+- medium
 
-### Setup de l'environement [Arkime](https://arkime.com/)
+### category:
+- network investigations.
+- SIEM Investigations.
+- ICS.
+
+### Technical context.
+
+The challenge consists of 5 dockers:
+- 4 dockers for the investigation part
+- 1 docker for the graphics and back end of Arkim
+- 3 docker for OpenSearch. 
+
+- 1 docker for answering the questions.
+
+Everything linked to solve the challenge itself are in the Q&A docker, you need to install it , read the instructions at the end of this README.
+
+## Setup of the environement. 
+
+### Setup of [Arkime](https://arkime.com/) environment
 
 ```sh
 # pull the docker 
@@ -43,7 +63,7 @@ docker cp /path/to/the/pcap/folder/ docker-arkime_arkime_1:/data/pcap
 
 ##### on the docker 
 # import the pcap file. 
-/opt/arkime/bin/capture --copy -n * -r /folder/where/you/cp/the/pcap/file.pcapng
+/opt/arkime/bin/capture --copy -n 4 -r /folder/where/you/cp/the/pcap/file.pcapng
 
 # run the script that will parse and upload 
 docker exec -it [container-id] ./data/arkime-parse-pcap-folder.sh
@@ -52,7 +72,7 @@ docker exec -it [container-id] ./data/arkime-parse-pcap-folder.sh
 
 ```
 
-### Setup docker questions réponse
+### Setup docker Q&A
 
 ```sh 
 

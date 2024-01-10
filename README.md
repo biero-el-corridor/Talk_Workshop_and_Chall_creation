@@ -1,12 +1,10 @@
-# Chall_cretation
-some chall tha t i have create. 
+# Chall_creations
 
-## this repos is for beta testing purpose 
+Each of the repos contains a README file on how to setup the environment that will host the challenge. 
 
-eatch repos contain a readme file on how to setup the environemnt that will host the challenge. 
-
+---
 
 |Title| Description|
 | ---- | ---- |
-|Brutal Tank| Inestigate some ICS disruptions on a siemens equipement|
+|Brutal Tank| Investigate some ICS disruptions on a siemens equipment |
 

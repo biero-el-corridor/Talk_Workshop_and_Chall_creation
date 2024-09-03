@@ -4,6 +4,12 @@
 Here are the slides for the rump, talk and workshop I've been able to put together. 
 
 As well as the challenges I created with all the elements needed to do them locally. 
+
+- [Challenge](#challenge)
+- [Talk](#talk)
+- [Workshop](#workshop)
+
+
 ---
 
 
